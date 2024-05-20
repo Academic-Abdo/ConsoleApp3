@@ -20,7 +20,7 @@ namespace ConsoleApp3
     {
 
         const int keySize = 64;
-        const int iterations = 350000;
+        const int iterations = 600;
         HashAlgorithmName hashAlgorithm = HashAlgorithmName.SHA512;
         public string HashPasword(string password, out byte[] salt)
         {
